@@ -6,5 +6,5 @@ Static memecoin site + X/Twitter header. Narrative: the doge who became Batman's
 - `assets/twitter-banner.png` — X header, 1500×500. `assets/twitter-banner@2x.png` is 3000×1000.
 - `tools/make_banner.py` — regenerates the header (`python3 tools/make_banner.py`, needs Pillow).
 
-Before launch, edit the `CONFIG` block at the top of `script.js`: contract address and links (DEX, chart, X, Telegram).
+Before launch, edit the `CONFIG` block at the top of `script.js`: set `launched: true` to switch on the buy/DEX/chart buttons (they show "Coming Soon" until then), add the contract address, and fill in the DEX, chart and Telegram links. X is already set to https://x.com/NightwingOnNear.
 Tokenomics numbers in `index.html` are placeholders — change them to match the real token.

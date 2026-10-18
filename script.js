@@ -1,19 +1,29 @@
 // ===== Edit these before launch =====
 const CONFIG = {
+  launched: false, // set to true when the token is live: buy/DEX/chart buttons switch on
   contract: "", // e.g. "nightwing.tkn.near" — leave empty to show "coming soon"
   links: {
     buy: "#buy",
     dex: "https://app.ref.finance/",
     chart: "https://dexscreener.com/near",
-    x: "https://x.com/",
-    telegram: "https://t.me/",
+    x: "https://x.com/NightwingOnNear",
+    telegram: "", // empty = button hidden
   },
 };
 // ====================================
 
+const TRADE_LINKS = ["buy", "dex", "chart"];
 document.querySelectorAll("[data-link]").forEach((a) => {
-  const url = CONFIG.links[a.dataset.link];
-  if (!url) return;
+  const key = a.dataset.link;
+  if (!CONFIG.launched && TRADE_LINKS.includes(key)) {
+    a.textContent = key === "chart" ? "Chart — Coming Soon" : "Buy — Coming Soon";
+    a.removeAttribute("href");
+    a.setAttribute("aria-disabled", "true");
+    a.classList.add("soon");
+    return;
+  }
+  const url = CONFIG.links[key];
+  if (!url) { a.hidden = true; return; }
   a.href = url;
   if (url.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; }
 });

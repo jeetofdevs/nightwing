@@ -1,5 +1,7 @@
 # $NIGHTWING — X launch copy
 
+X: https://x.com/NightwingOnNear
+
 ## Name
 Nightwing Doge $NIGHTWING
 

@@ -53,6 +53,7 @@ code { font-family: ui-monospace, Menlo, monospace; }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 36px rgba(40, 120, 255, .5); }
 .btn-ghost { background: transparent; border: 2px solid var(--line); box-shadow: none; }
 .btn-ghost:hover { border-color: var(--blue); box-shadow: none; }
+.btn.soon { background: rgba(255,255,255,.06); border: 2px dashed var(--line); color: var(--muted); box-shadow: none; cursor: not-allowed; transform: none; }
 .btn-sm { padding: 9px 18px; font-size: .9rem; }
 
 /* HERO */
