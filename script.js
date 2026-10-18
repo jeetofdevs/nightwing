@@ -1,9 +1,9 @@
 // ===== Edit these before launch =====
 const CONFIG = {
-  launched: false, // set to true (and set links.buy) when the token is live
-  contract: "", // e.g. "nightwing.tkn.near" — leave empty to show "coming soon"
+  launched: true, // false = buy buttons show "Coming Soon"
+  contract: "nightwing.nearlytrade.near",
   links: {
-    buy: "#buy",
+    buy: "https://nearly.trade/nightwing.nearlytrade.near",
     x: "https://x.com/NightwingOnNear",
   },
 };
@@ -13,6 +13,7 @@ const TRADE_LINKS = ["buy"];
 document.querySelectorAll("[data-link]").forEach((a) => {
   const key = a.dataset.link;
   if (TRADE_LINKS.includes(key) && (!CONFIG.launched || !CONFIG.links[key])) {
+    a.textContent = "Buy — Coming Soon";
     a.removeAttribute("href");
     a.setAttribute("aria-disabled", "true");
     a.classList.add("soon");
@@ -21,7 +22,6 @@ document.querySelectorAll("[data-link]").forEach((a) => {
   const url = CONFIG.links[key];
   if (!url) { a.hidden = true; return; }
   if (key === "buy") {               // launched: turn the placeholder into a real button
-    a.textContent = "Buy $NIGHTWING";
     a.classList.remove("soon");
     a.removeAttribute("aria-disabled");
   }
