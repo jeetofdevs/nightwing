@@ -7,7 +7,6 @@ const CONFIG = {
     dex: "", // pair page on the DEX — empty = "Coming Soon"
     chart: "", // chart page (e.g. Dexscreener pair) — empty = "Coming Soon"
     x: "https://x.com/NightwingOnNear",
-    telegram: "", // empty = button hidden
   },
 };
 // ====================================
