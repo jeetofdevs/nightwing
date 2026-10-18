@@ -1,21 +1,19 @@
 // ===== Edit these before launch =====
 const CONFIG = {
-  launched: false, // set to true when the token is live: buy/DEX/chart buttons switch on
+  launched: false, // set to true (and set links.buy) when the token is live
   contract: "", // e.g. "nightwing.tkn.near" — leave empty to show "coming soon"
   links: {
     buy: "#buy",
-    dex: "", // pair page on the DEX — empty = "Coming Soon"
-    chart: "", // chart page (e.g. Dexscreener pair) — empty = "Coming Soon"
     x: "https://x.com/NightwingOnNear",
   },
 };
 // ====================================
 
-const TRADE_LINKS = ["buy", "dex", "chart"];
+const TRADE_LINKS = ["buy"];
 document.querySelectorAll("[data-link]").forEach((a) => {
   const key = a.dataset.link;
   if (TRADE_LINKS.includes(key) && (!CONFIG.launched || !CONFIG.links[key])) {
-    a.textContent = key === "chart" ? "Chart — Coming Soon" : "Buy — Coming Soon";
+    a.textContent = "Buy — Coming Soon";
     a.removeAttribute("href");
     a.setAttribute("aria-disabled", "true");
     a.classList.add("soon");
