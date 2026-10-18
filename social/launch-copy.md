@@ -28,7 +28,7 @@ Not affiliated with DC or NEAR Foundation. Memecoin, no promises, just vibes.
 
 ## Second post — lore thread (CA already posted)
 
-### 2a (main post)
+### 2a (main post — attach social/origin-story.png)
 Every hero has an origin story. Here's mine 🧵
 
 Gotham. Rain. A stray shiba nobody noticed.
