@@ -4,8 +4,8 @@ const CONFIG = {
   contract: "", // e.g. "nightwing.tkn.near" — leave empty to show "coming soon"
   links: {
     buy: "#buy",
-    dex: "https://app.ref.finance/",
-    chart: "https://dexscreener.com/near",
+    dex: "", // pair page on the DEX — empty = "Coming Soon"
+    chart: "", // chart page (e.g. Dexscreener pair) — empty = "Coming Soon"
     x: "https://x.com/NightwingOnNear",
     telegram: "", // empty = button hidden
   },
@@ -15,7 +15,7 @@ const CONFIG = {
 const TRADE_LINKS = ["buy", "dex", "chart"];
 document.querySelectorAll("[data-link]").forEach((a) => {
   const key = a.dataset.link;
-  if (!CONFIG.launched && TRADE_LINKS.includes(key)) {
+  if (TRADE_LINKS.includes(key) && (!CONFIG.launched || !CONFIG.links[key])) {
     a.textContent = key === "chart" ? "Chart — Coming Soon" : "Buy — Coming Soon";
     a.removeAttribute("href");
     a.setAttribute("aria-disabled", "true");
