@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$NIGHTWING — Nightwing Doge on NEAR</title>
+  <meta name="description" content="Nightwing Doge ($NIGHTWING): the partner Batman never saw coming. A community memecoin on NEAR." />
+  <meta property="og:title" content="$NIGHTWING — Nightwing Doge" />
+  <meta property="og:description" content="The partner Batman never saw coming. Built on NEAR." />
+  <meta property="og:image" content="assets/twitter-banner.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/nightwing-doge.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="#top"><img src="assets/nightwing-doge.jpg" alt="" /> $NIGHTWING</a>
+    <nav>
+      <a href="#lore">Lore</a>
+      <a href="#token">Tokenomics</a>
+      <a href="#buy">How to Buy</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+    <a class="btn btn-sm" data-link="buy" href="#buy">Buy $NIGHTWING</a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">The partner Batman never saw coming</p>
+        <h1>$NIGHTWING</h1>
+        <svg class="wing" viewBox="0 0 400 40" aria-hidden="true"><path d="M0 0 L200 40 L400 0 L380 0 L200 26 L20 0 Z"/></svg>
+        <p class="lead">Every dark knight needs a partner. Gotham picked a boy wonder. <strong>NEAR picked a doge.</strong></p>
+        <div class="ca">
+          <span class="ca-label">CA</span>
+          <code id="ca">coming soon</code>
+          <button id="copy" class="copy" type="button" aria-label="Copy contract address">Copy</button>
+        </div>
+        <div class="cta">
+          <a class="btn" data-link="buy" href="#buy">Buy on NEAR</a>
+          <a class="btn btn-ghost" data-link="x" href="#">Join the Patrol on X</a>
+        </div>
+        <span class="pill">Built on NEAR</span>
+      </div>
+      <div class="hero-art">
+        <div class="moon"></div>
+        <img src="assets/nightwing-doge.jpg" alt="Shiba doge in a black and blue Nightwing-style suit, mid-leap" />
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div>
+        <span>NO CAPE NEEDED</span><span>•</span><span>SIDEKICK SZN</span><span>•</span><span>$NIGHTWING</span><span>•</span><span>GOTHAM ➜ NEAR</span><span>•</span>
+        <span>NO CAPE NEEDED</span><span>•</span><span>SIDEKICK SZN</span><span>•</span><span>$NIGHTWING</span><span>•</span><span>GOTHAM ➜ NEAR</span><span>•</span>
+      </div>
+    </div>
+
+    <!-- LORE -->
+    <section id="lore" class="section">
+      <h2>The Lore</h2>
+      <p class="sub">How a good boy became the Dark Knight's right paw.</p>
+      <div class="chapters">
+        <article class="chapter">
+          <span class="num">01</span>
+          <h3>The Stray of Gotham</h3>
+          <p>Every night the Bat swung over the rooftops. Every night a small shiba followed below, dodging rain, villains and rent. Nobody noticed. The doge noticed everything.</p>
+        </article>
+        <article class="chapter">
+          <span class="num">02</span>
+          <h3>The Night He Was Seen</h3>
+          <p>One night the Bat fell. Grapple snapped, cape tangled. The doge didn't bark. He jumped. Caught the cape in his teeth and pulled. Batman looked down and said one word: <em>“Partner.”</em></p>
+        </article>
+        <article class="chapter">
+          <span class="num">03</span>
+          <h3>The Suit</h3>
+          <p>No cape, because capes get caught. Black for the shadows. A blue wing across the chest so the city would know: this one flies on his own.</p>
+        </article>
+        <article class="chapter">
+          <span class="num">04</span>
+          <h3>Leaving the Nest</h3>
+          <p>Every great partner eventually goes solo. Gotham was too small, so Nightwing Doge leapt to a chain fast enough to keep up with him: <strong>NEAR</strong>. Cheap gas, quick finality, no bats required.</p>
+        </article>
+      </div>
+      <blockquote class="quote">“Batman works alone. That's why he lost the bull run.” <span>— Nightwing Doge</span></blockquote>
+    </section>
+
+    <!-- TOKENOMICS -->
+    <section id="token" class="section">
+      <h2>Tokenomics</h2>
+      <p class="sub">Simple, like a good partner should be.</p>
+      <div class="stats">
+        <div class="stat"><span class="k">Name</span><span class="v">Nightwing Doge</span></div>
+        <div class="stat"><span class="k">Ticker</span><span class="v">$NIGHTWING</span></div>
+        <div class="stat"><span class="k">Chain</span><span class="v">NEAR</span></div>
+        <div class="stat"><span class="k">Total Supply</span><span class="v">1,000,000,000</span></div>
+        <div class="stat"><span class="k">Buy / Sell Tax</span><span class="v">0% / 0%</span></div>
+        <div class="stat"><span class="k">Liquidity</span><span class="v">Burned</span></div>
+      </div>
+      <div class="split">
+        <div class="bar"><span style="--w:85%" class="b1"></span><span style="--w:10%" class="b2"></span><span style="--w:5%" class="b3"></span></div>
+        <ul class="legend">
+          <li><i class="b1"></i> 85% Liquidity pool</li>
+          <li><i class="b2"></i> 10% Community &amp; airdrops</li>
+          <li><i class="b3"></i> 5% Marketing &amp; listings</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HOW TO BUY -->
+    <section id="buy" class="section">
+      <h2>How to Buy</h2>
+      <p class="sub">Four moves. Faster than a grapple hook.</p>
+      <ol class="steps">
+        <li><h3>Get a NEAR wallet</h3><p>Install a NEAR wallet such as Meteor, HOT or MyNearWallet. Write your seed phrase down and keep it offline.</p></li>
+        <li><h3>Load up on NEAR</h3><p>Buy $NEAR on an exchange and send it to your wallet address (your <code>.near</code> name or the long hex address).</p></li>
+        <li><h3>Open a NEAR DEX</h3><p>Go to a NEAR DEX, connect your wallet and paste the official $NIGHTWING contract address from this page.</p></li>
+        <li><h3>Swap and suit up</h3><p>Swap NEAR for $NIGHTWING. Welcome to the Patrol, partner.</p></li>
+      </ol>
+      <div class="cta center">
+        <a class="btn" data-link="dex" href="#">Open DEX</a>
+        <a class="btn btn-ghost" data-link="chart" href="#">View Chart</a>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section">
+      <h2>Roadmap</h2>
+      <p class="sub">The patrol route.</p>
+      <div class="roadmap">
+        <div class="phase"><span>Phase 1</span><h3>Origin</h3><ul><li>Launch on NEAR</li><li>Website &amp; socials</li><li>First 1,000 holders</li></ul></div>
+        <div class="phase"><span>Phase 2</span><h3>Patrol</h3><ul><li>Meme contests</li><li>Community raids on X</li><li>Tracker listings</li></ul></div>
+        <div class="phase"><span>Phase 3</span><h3>Solo Flight</h3><ul><li>Partnerships across NEAR</li><li>Bigger exchange listings</li><li>Nightwing Doge comic drop</li></ul></div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY -->
+    <section class="section community">
+      <h2>Join the Patrol</h2>
+      <p class="sub">The Bat works alone. We don't.</p>
+      <div class="cta center">
+        <a class="btn" data-link="x" href="#">X / Twitter</a>
+        <a class="btn btn-ghost" data-link="telegram" href="#">Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>$NIGHTWING</strong> is a community memecoin with no intrinsic value and no expectation of financial return. It is not an investment. Crypto is high risk; only spend what you can afford to lose.</p>
+    <p>Fan parody. Not affiliated with, endorsed by or sponsored by DC Comics, Warner Bros. Discovery or NEAR Foundation. Batman and Nightwing are trademarks of their respective owners.</p>
+    <p class="copy-note">© <span id="year"></span> Nightwing Doge community</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
