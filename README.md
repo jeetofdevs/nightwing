@@ -8,3 +8,6 @@ Static memecoin site + X/Twitter header. Narrative: the doge who became Batman's
 
 Before launch, edit the `CONFIG` block at the top of `script.js`: set `launched: true` to switch on the buy buttons (they show "Coming Soon" until then), point `links.buy` at the DEX pair page, and add the contract address. X is set to https://x.com/NightwingOnNear.
 Tokenomics numbers in `index.html` are placeholders — change them to match the real token.
+
+## Deploy on Railway
+The repo includes a `Dockerfile` (Caddy static server) and `railway.json`, so Railway builds it with no extra settings. Caddy listens on the `PORT` Railway provides. After the first deploy, open the service → Settings → Networking → Generate Domain to get a public URL.
