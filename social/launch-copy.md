@@ -26,7 +26,9 @@ Buy: https://nearly.trade/nightwing.nearlytrade.near
 Only trust the address posted on this account and the website.
 Not affiliated with DC or NEAR Foundation. Memecoin, no promises, just vibes.
 
-## Second post — lore + engagement (CA already posted)
+## Second post — lore thread (CA already posted)
+
+### 2a (main post)
 Every hero has an origin story. Here's mine 🧵
 
 Gotham. Rain. A stray shiba nobody noticed.
@@ -36,9 +38,10 @@ I didn't bark. I jumped.
 
 He looked down and said one word: "Partner."
 
-Now I fly solo on @NEARProtocol.
+### 2b (reply to 2a)
+Now I fly solo on @NEARProtocol 🦇➜🌙
 
 Drop your best Nightwing Doge meme below 👇
 Best one gets pinned.
 
-$NIGHTWING 🦇➜🌙
+$NIGHTWING
