@@ -13,7 +13,6 @@ const TRADE_LINKS = ["buy"];
 document.querySelectorAll("[data-link]").forEach((a) => {
   const key = a.dataset.link;
   if (TRADE_LINKS.includes(key) && (!CONFIG.launched || !CONFIG.links[key])) {
-    a.textContent = "Buy — Coming Soon";
     a.removeAttribute("href");
     a.setAttribute("aria-disabled", "true");
     a.classList.add("soon");
@@ -21,6 +20,11 @@ document.querySelectorAll("[data-link]").forEach((a) => {
   }
   const url = CONFIG.links[key];
   if (!url) { a.hidden = true; return; }
+  if (key === "buy") {               // launched: turn the placeholder into a real button
+    a.textContent = "Buy $NIGHTWING";
+    a.classList.remove("soon");
+    a.removeAttribute("aria-disabled");
+  }
   a.href = url;
   if (url.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; }
 });
