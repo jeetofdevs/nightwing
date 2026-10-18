@@ -26,16 +26,19 @@ Buy: https://nearly.trade/nightwing.nearlytrade.near
 Only trust the address posted on this account and the website.
 Not affiliated with DC or NEAR Foundation. Memecoin, no promises, just vibes.
 
-## Second post — launch / CA live
-The suit is on. The partner is live.
+## Second post — lore + engagement (CA already posted)
+Every hero has an origin story. Here's mine 🧵
 
-$NIGHTWING is now tradable on @NEARProtocol 🦇➜🌙
+Gotham. Rain. A stray shiba nobody noticed.
 
-CA: nightwing.nearlytrade.near
-Buy: https://nearly.trade/nightwing.nearlytrade.near
-Site: https://nightwing.fun
+One night the Bat fell. Grapple snapped. Cape tangled.
+I didn't bark. I jumped.
 
-34% holders. 33% burned. 33% dev.
-No cape. No bats. Just a doge who learned to fly.
+He looked down and said one word: "Partner."
 
-Gotham said sidekick. NEAR said main character.
+Now I fly solo on @NEARProtocol.
+
+Drop your best Nightwing Doge meme below 👇
+Best one gets pinned.
+
+$NIGHTWING 🦇➜🌙
