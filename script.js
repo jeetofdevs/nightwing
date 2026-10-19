@@ -1,7 +1,6 @@
 // ===== Edit these before launch =====
 const CONFIG = {
   launched: true, // false = buy buttons show "Coming Soon"
-  contract: "nightwing.nearlytrade.near",
   links: {
     buy: "https://nearly.trade/nightwing.nearlytrade.near",
     x: "https://x.com/NightwingOnNear",
@@ -27,20 +26,6 @@ document.querySelectorAll("[data-link]").forEach((a) => {
   }
   a.href = url;
   if (url.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; }
-});
-
-const caEl = document.getElementById("ca");
-const copyBtn = document.getElementById("copy");
-if (CONFIG.contract) caEl.textContent = CONFIG.contract;
-else copyBtn.hidden = true;
-copyBtn.addEventListener("click", async () => {
-  try {
-    await navigator.clipboard.writeText(CONFIG.contract);
-    copyBtn.textContent = "Copied!";
-  } catch {
-    copyBtn.textContent = "Select & copy";
-  }
-  setTimeout(() => (copyBtn.textContent = "Copy"), 1500);
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
