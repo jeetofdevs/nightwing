@@ -1,6 +1,6 @@
 // ===== Edit these before launch =====
 const CONFIG = {
-  launched: true, // false = buy buttons show "Coming Soon"
+  launched: false, // true = buy buttons link to links.buy; false = "Coming Soon"
   links: {
     buy: "https://nearly.trade/nightwing.nearlytrade.near",
     x: "https://x.com/NightwingOnNear",
@@ -21,6 +21,7 @@ document.querySelectorAll("[data-link]").forEach((a) => {
   const url = CONFIG.links[key];
   if (!url) { a.hidden = true; return; }
   if (key === "buy") {               // launched: turn the placeholder into a real button
+    a.textContent = "Buy $NIGHTWING";
     a.classList.remove("soon");
     a.removeAttribute("aria-disabled");
   }
