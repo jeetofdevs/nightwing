@@ -45,3 +45,64 @@ Drop your best Nightwing Doge meme below 👇
 Best one gets pinned.
 
 $NIGHTWING
+
+---
+
+# Token launch series: "nearly.trade has a Batman, justhoot.fun has a Nightwing"
+
+## Post 1 — token intro
+Every Batman needs a partner.
+
+nearly.trade has a Batman.
+justhoot.fun has a Nightwing.
+
+$NIGHTWING 🦇➜🌙
+Gotham's sidekick. NEAR's main character.
+
+CA soon. Follow so you don't miss it.
+
+## Post 2 — the partner suits up
+Batman got the spotlight on nearly.trade.
+
+Fine. Every hero needs someone watching his back.
+
+The partner is suiting up on justhoot.fun.
+No cape. Just a blue wing.
+
+$NIGHTWING 🦇➜🌙
+
+## Post 3 — who saved who
+Batman: "I work alone."
+Also Batman: falls off a rooftop.
+
+Who caught him?
+A doge in a black suit.
+
+nearly.trade has the Bat.
+justhoot.fun has the one who saved him.
+
+$NIGHTWING
+
+## Post 4 — rules of the partnership
+Rules of the partnership:
+
+1. The Bat takes nearly.trade
+2. The doge takes justhoot.fun
+3. Nobody touches the cape
+4. 100% to holders
+
+Dynamic duo. Two platforms. One NEAR. 🦇🐕
+
+$NIGHTWING
+
+## Post 5 — call to the Patrol
+Gotham had one hero.
+NEAR has two.
+
+🦇 Batman on nearly.trade
+🐕 Nightwing on justhoot.fun
+
+Batman's partner is almost here.
+Join the Patrol: follow @NightwingOnNear and turn on 🔔
+
+$NIGHTWING
