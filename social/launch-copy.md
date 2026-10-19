@@ -21,8 +21,8 @@ The partner Batman never saw coming has landed.
 $NIGHTWING 🦇➜🌙
 
 ## Pinned reply
-CA: nightwing.nearlytrade.near
-Buy: https://nearly.trade/nightwing.nearlytrade.near
+CA: nightwing.v2-launchpad.justhoot.near
+Buy: https://justhoot.fun/p/nightwing.v2-launchpad.justhoot.near
 Only trust the address posted on this account and the website.
 Not affiliated with DC or NEAR Foundation. Memecoin, no promises, just vibes.
 
