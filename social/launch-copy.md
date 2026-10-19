@@ -50,7 +50,7 @@ $NIGHTWING
 
 # Token launch series: "nearly.trade has a Batman, justhoot.fun has a Nightwing"
 
-## Post 1 — token intro
+## Post 1 (attach social/series-1.png) — token intro
 Every Batman needs a partner.
 
 nearly.trade has a Batman.
@@ -61,7 +61,7 @@ Gotham's sidekick. NEAR's main character.
 
 CA soon. Follow so you don't miss it.
 
-## Post 2 — the partner suits up
+## Post 2 (attach social/series-2.png) — the partner suits up
 Batman got the spotlight on nearly.trade.
 
 Fine. Every hero needs someone watching his back.
@@ -71,7 +71,7 @@ No cape. Just a blue wing.
 
 $NIGHTWING 🦇➜🌙
 
-## Post 3 — who saved who
+## Post 3 (attach social/series-3.png) — who saved who
 Batman: "I work alone."
 Also Batman: falls off a rooftop.
 
@@ -83,7 +83,7 @@ justhoot.fun has the one who saved him.
 
 $NIGHTWING
 
-## Post 4 — rules of the partnership
+## Post 4 (attach social/series-4.png) — rules of the partnership
 Rules of the partnership:
 
 1. The Bat takes nearly.trade
@@ -95,7 +95,7 @@ Dynamic duo. Two platforms. One NEAR. 🦇🐕
 
 $NIGHTWING
 
-## Post 5 — call to the Patrol
+## Post 5 (attach social/series-5.png) — call to the Patrol
 Gotham had one hero.
 NEAR has two.
 
